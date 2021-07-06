@@ -4,6 +4,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+section{
+    margin-bottom: 80px;
+}
 h1{
     font-size: 50px;
     color: #575757;
@@ -17,7 +20,9 @@ p{
 .margin-bottom-50{
     margin-bottom: 50px;
 }
-
+.align-center{
+    margin: 0 auto;
+}
 
 
 #hero-section p{
@@ -58,4 +63,17 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px 0;
+}
+
+
+/* recipie */
+.recipi-item {
+	padding: 14px;
+	background: #fff;
+	margin: 10px;
+	box-shadow: 3px 0px 24px 1px rgba(0,0,0,0.24);
+	border-radius: 15px;
+}
+.recipi-item img{
+    border-radius: 15px;
 }
