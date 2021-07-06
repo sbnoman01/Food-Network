@@ -77,3 +77,16 @@ p{
 .recipi-item img{
     border-radius: 15px;
 }
+.recipi-item h3 {
+	font-size: 25px;
+	font-weight: 700;
+}
+.statics {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+    background: #fff;
+	box-shadow: 3px 0px 24px 1px rgba(0,0,0,0.24);
+    padding: 50px 0;
+    border-radius: 15px;
+}
