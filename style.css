@@ -8,11 +8,21 @@ h1{
     font-size: 50px;
     color: #575757;
 }
+p{
+    line-height: 1.5;
+}
+.text-center{
+    text-align: center;
+}
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
+
+
+
 #hero-section p{
     color: #828282;
     font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 50px;
 }
 .container {
 	display: flex;
@@ -26,6 +36,9 @@ h1{
 .width-100{
     width: 100%;
 }
+.width-50{
+    width: 50%;
+}
 .blue-text{
     color: #038AF6;
 }
@@ -37,4 +50,12 @@ h1{
 	font-size: 21px;
 	color: #fff;
 	text-decoration: none;
+}
+
+/* about me */
+#about-me{
+    background-image: url('images/Selected-file/Frame\ 57.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
 }
