@@ -1,4 +1,40 @@
 *{
     padding: 0;
 }
-.
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: #575757;
+}
+#hero-section p{
+    color: #828282;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.container {
+	display: flex;
+	width: 1200px;
+	align-items: center;
+	margin: 0 auto;
+}
+.half-width{
+    width: 50%;
+}
+.width-100{
+    width: 100%;
+}
+.blue-text{
+    color: #038AF6;
+}
+
+.btn {
+	background-image: linear-gradient(to right, #13b5fc,#0389f6);
+	padding: 10px 20px;
+	border-radius: 30px;
+	font-size: 21px;
+	color: #fff;
+	text-decoration: none;
+}
